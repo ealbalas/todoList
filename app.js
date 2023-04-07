@@ -18,7 +18,7 @@ app.get("/", function(req, res){
     month: "long"
   }
 
-  var day = today.toLocaleTimeString("en-US", options)
+  var day = today.toLocaleDateString("en-US", options)
 
 //   if (currentDay == 0 || currentDay == 6) {
 //     day = "Weekend"
